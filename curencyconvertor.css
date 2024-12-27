@@ -1,0 +1,115 @@
+body
+{
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    background:linear-gradient(white,silver,#e6e6df);
+    
+}
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#allc
+{
+  border:2px solid green;
+    height:400px;
+    width:330px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    
+
+    
+}
+form
+{
+   width:100%; 
+    margin:0 auto;
+    display:flex;
+     display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+}
+
+#lableinputcontainer
+{
+    
+    height:76px;
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    padding:7px;
+    
+}
+#lableinputcontainer>label
+{
+    font-weight:bold;
+    margin-left:2px;
+}
+#lableinputcontainer>input
+{
+  padding:10px;  
+    border:none;
+    outline:none;
+    border:2px solid silver;
+    border-radius:10px;
+    margin-top:2px;
+   
+}
+#container
+{
+   width:100%; 
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:center;
+    height:200px;
+    border:2px solid darkgrey;
+}
+
+
+.form
+{   
+ margin-left:30px;   
+}
+.icon2{
+    margin-top:20px;
+    
+}
+
+.to
+{
+  margin-right:30px;  
+}
+.iconcontainer
+{
+    display:flex;
+    height:40px;
+    border:2px solid silver;
+    justify-content:center;
+    align-items:center;
+    width:80px;
+    border-radius:5px;
+   
+}
+.iconcontainer>img
+{
+   height:30px; 
+}
+.iconcontainer>select
+{
+    width:40px;
+    height:30px;
+    border:none;
+
+    
+}
