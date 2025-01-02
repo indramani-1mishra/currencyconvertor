@@ -15,7 +15,7 @@ body
 }
 #allc
 {
-  border:2px solid green;
+  
     height:400px;
     width:330px;
     display:flex;
@@ -23,10 +23,13 @@ body
     justify-content:space-around;
     align-items:center;
     background-color:white;
+    border-radius:10px;
+  
     
 
     
 }
+
 form
 {
    width:100%; 
@@ -37,6 +40,9 @@ form
     justify-content:space-around;
     align-items:center;
     background-color:white;
+    
+    
+    
 }
 
 #lableinputcontainer
@@ -72,8 +78,8 @@ form
     justify-content:space-between;
     
     align-items:center;
-    height:200px;
-    border:2px solid darkgrey;
+    height:100px;
+   
 }
 
 
@@ -94,10 +100,10 @@ form
 {
     display:flex;
     height:40px;
-    border:2px solid silver;
+  border:2px solid silver;
     justify-content:center;
     align-items:center;
-    width:80px;
+    width:90px;
     border-radius:5px;
    
 }
@@ -107,9 +113,35 @@ form
 }
 .iconcontainer>select
 {
-    width:40px;
+    width:50px;
     height:30px;
     border:none;
+    outline: none;
 
     
+}
+#result
+{
+    height:100px;
+    
+    width:90%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    text-transform:uppercase;
+}
+button
+{
+    padding:15px;
+    width:200px;
+    border-radius:10px;
+    position:relative;
+    bottom:20px;
+    border:none;
+    background:linear-gradient(#916060,#75d275);
+    color:white;
+    text-transform:capitalize;
+    font-size:16px;
+    cursor:pointer;
 }
